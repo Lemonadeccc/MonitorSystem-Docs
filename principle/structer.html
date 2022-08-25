@@ -7,7 +7,7 @@
     <meta name="description" content="A VitePress site">
     <link rel="stylesheet" href="/MonitorSystem-Docs/assets/style.eb53258e.css">
     <link rel="modulepreload" href="/MonitorSystem-Docs/assets/app.53b40945.js">
-    <link rel="modulepreload" href="/MonitorSystem-Docs/assets/principle_structer.md.caa7472b.lean.js">
+    <link rel="modulepreload" href="/MonitorSystem-Docs/assets/principle_structer.md.8128b863.lean.js">
     
     <script id="check-dark-light">(()=>{const e=localStorage.getItem("vitepress-theme-appearance"),a=window.matchMedia("(prefers-color-scheme: dark)").matches;(!e||e==="auto"?a:e==="dark")&&document.documentElement.classList.add("dark")})();</script>
   </head>
@@ -19,10 +19,22 @@
 <span class="line"><span style="color:#A6ACCD;">|    |—— components	# 存放项目所有组件，包括部分单独组件和页面组件</span></span>
 <span class="line"><span style="color:#A6ACCD;">|    |—— hooks		# 存放项目中的自定义钩子。包括过渡动画等</span></span>
 <span class="line"><span style="color:#A6ACCD;">|    |—— router     # 存放项目路由</span></span>
-<span class="line"><span style="color:#A6ACCD;">|    |—— views      #存放项目主页面的组件</span></span>
+<span class="line"><span style="color:#A6ACCD;">|    |—— views      # 存放项目主页面的组件</span></span>
 <span class="line"><span style="color:#A6ACCD;">...  ...</span></span>
-<span class="line"><span style="color:#A6ACCD;"></span></span></code></pre></div><h2 id="后端项目结构" tabindex="-1">后端项目结构 <a class="header-anchor" href="#后端项目结构" aria-hidden="true">#</a></h2><p>后续待写</p></div></div></main><!--[--><!--]--><footer class="VPDocFooter" data-v-f0af2311 data-v-a54a85bd><div class="edit-info" data-v-a54a85bd><!----><div class="last-updated" data-v-a54a85bd><p class="VPLastUpdated" data-v-a54a85bd data-v-f7d51a9c>Last updated: <time datatime="2022-08-22T03:07:36.000Z" data-v-f7d51a9c></time></p></div></div><div class="prev-next" data-v-a54a85bd><div class="pager" data-v-a54a85bd><a class="pager-link prev" href="/MonitorSystem-Docs/daohang/standrads.html" data-v-a54a85bd><span class="desc" data-v-a54a85bd>Previous page</span><span class="title" data-v-a54a85bd>规范</span></a></div><div class="has-prev pager" data-v-a54a85bd><a class="pager-link next" href="/MonitorSystem-Docs/principle/sdkIntroduction.html" data-v-a54a85bd><span class="desc" data-v-a54a85bd>Next page</span><span class="title" data-v-a54a85bd>SDK介绍</span></a></div></div></footer><!--[--><!--]--></div></div></div></div></div><!----><!--[--><!--]--></div></div>
-    <script>__VP_HASH_MAP__ = JSON.parse("{\"about_index.md\":\"10d591d3\",\"daohang_todos.md\":\"f3eb22c0\",\"daohang_projectitems.md\":\"c008c10d\",\"daohang_standrads.md\":\"26018e84\",\"index.md\":\"d51a07e0\",\"linkresour_linkres.md\":\"cbbb14da\",\"principle_sdkintroduction.md\":\"95b7dfc4\",\"principle_structer.md\":\"caa7472b\",\"team_members.md\":\"0093ab4b\"}")</script>
+<span class="line"><span style="color:#A6ACCD;"></span></span></code></pre></div><h2 id="后端项目结构" tabindex="-1">后端项目结构 <a class="header-anchor" href="#后端项目结构" aria-hidden="true">#</a></h2><div class="language-"><button class="copy"></button><span class="lang"></span><pre><code><span class="line"><span style="color:#A6ACCD;">Project</span></span>
+<span class="line"><span style="color:#A6ACCD;">|—— config                    # 配置</span></span>
+<span class="line"><span style="color:#A6ACCD;">|—— entity	</span></span>
+<span class="line"><span style="color:#A6ACCD;">|—— routes                  </span></span>
+<span class="line"><span style="color:#A6ACCD;">|    |—— behavior</span></span>
+<span class="line"><span style="color:#A6ACCD;">|    |—— doc/api.ts            # API</span></span>
+<span class="line"><span style="color:#A6ACCD;">|    |—— error                 # 错误</span></span>
+<span class="line"><span style="color:#A6ACCD;">|    |—— performance/pv/add.ts</span></span>
+<span class="line"><span style="color:#A6ACCD;">|    |—— user                  # 用户</span></span>
+<span class="line"><span style="color:#A6ACCD;">|—— types/index.ts              </span></span>
+<span class="line"><span style="color:#A6ACCD;">|—— utils	</span></span>
+<span class="line"><span style="color:#A6ACCD;">...  ...</span></span>
+<span class="line"><span style="color:#A6ACCD;"></span></span></code></pre></div></div></div></main><!--[--><!--]--><footer class="VPDocFooter" data-v-f0af2311 data-v-a54a85bd><div class="edit-info" data-v-a54a85bd><!----><div class="last-updated" data-v-a54a85bd><p class="VPLastUpdated" data-v-a54a85bd data-v-f7d51a9c>Last updated: <time datatime="2022-08-25T01:41:32.000Z" data-v-f7d51a9c></time></p></div></div><div class="prev-next" data-v-a54a85bd><div class="pager" data-v-a54a85bd><a class="pager-link prev" href="/MonitorSystem-Docs/daohang/standrads.html" data-v-a54a85bd><span class="desc" data-v-a54a85bd>Previous page</span><span class="title" data-v-a54a85bd>规范</span></a></div><div class="has-prev pager" data-v-a54a85bd><a class="pager-link next" href="/MonitorSystem-Docs/principle/sdkIntroduction.html" data-v-a54a85bd><span class="desc" data-v-a54a85bd>Next page</span><span class="title" data-v-a54a85bd>SDK介绍</span></a></div></div></footer><!--[--><!--]--></div></div></div></div></div><!----><!--[--><!--]--></div></div>
+    <script>__VP_HASH_MAP__ = JSON.parse("{\"about_index.md\":\"10d591d3\",\"daohang_todos.md\":\"36c285c2\",\"daohang_projectitems.md\":\"4727315e\",\"daohang_standrads.md\":\"040f9ba0\",\"index.md\":\"6e32af80\",\"linkresour_linkres.md\":\"1f4e993c\",\"principle_sdkintroduction.md\":\"737b46f6\",\"principle_structer.md\":\"8128b863\",\"team_members.md\":\"5864173d\"}")</script>
     <script type="module" async src="/MonitorSystem-Docs/assets/app.53b40945.js"></script>
     
   </body>
